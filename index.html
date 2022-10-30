@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Techracy22</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,7 +30,23 @@
 	</div>
 	<div class="div3">
 		<h1 class="sponsors">SPONSORS</h1>
+					<!--CAROUSEL CODE-->
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<!-- INSERT IMAGES HERE -->
+					<div class="swiper-slide"><img class="carousel-image" src="./Sponsors/adidasPNG8-1.png" alt="sponsor image"></div>
+					<div class="swiper-slide"><img class="carousel-image" src="./Sponsors/Lamborghini_Logo.svg.png" alt="sponsor image"></div>
+					<div class="swiper-slide"><img class="carousel-image" src="./Sponsors/Nike-Logo-768x432.png" alt="sponsor image"></div>
+					<div class="swiper-slide"><img class="carousel-image" src="./Sponsors/pngwing.com.png" alt="sponsor image"></div>
+					<div class="swiper-slide"><img class="carousel-image" src="./Sponsors/Red_bull_logo_PNG4.png" alt="sponsor image"></div>
+				</div>
+				<!-- IF PAGINATION IS DESIRED -->
+				<div class="swiper-pagination"></div>
+		</div>
 	</div>
+
+	
+
 	<div class="div2">
 		<h1 class="event-heading">EVENTS</h1>
 		<img class="at-top" src="./First Page Assets/strip-4.png" alt="event-image">
@@ -47,6 +64,8 @@
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<script src="script.js"></script>
+	<script src="carousel.js"></script>
 </body>
 </html>

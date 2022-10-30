@@ -238,7 +238,7 @@ body {
 .div3 {
   z-index: 1;
   position: relative;
-  min-height: 60vh !important;
+  min-height: 65vh !important;
   width: 100%;
   background-color: white;
   border-bottom: 2px solid #1c1d20;
@@ -275,6 +275,46 @@ body {
   justify-content: flex-end;
 }
 
+.swiper {
+  bottom: 2em;
+  position: absolute;
+  width: 100%;
+}
+.swiper .swiper-slide {
+  margin-top: -200px;
+  text-align: center;
+  font-size: 18px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper .swiper-slide img {
+  border-radius: 2rem;
+  margin-top: 20em;
+  display: block;
+  width: 13em;
+  height: 13em;
+  -o-object-fit: contain;
+     object-fit: contain;
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.6));
+  transition: filter 500ms ease;
+}
+.swiper .swiper-slide img:hover {
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.6));
+}
+.swiper .swiper-pagination {
+  color: white;
+}
+.swiper .swiper-pagination-bullet-active {
+  background-color: black !important;
+}
+
+@media screen and (max-width: 813px) {
+  .swiper {
+    width: 100%;
+  }
+}
 * {
   scrollbar-width: none;
   scrollbar-track-color: transparent;
