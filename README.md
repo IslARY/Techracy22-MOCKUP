@@ -1,2 +1,2 @@
 # Techracy22
-Website For Technical Fest 2022.
+Mockup For Technical Fest Website 2022.
